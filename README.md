@@ -429,12 +429,14 @@ If you use this repository in academic work, please cite it as:
 
 ---
 
+## Authorship and copyright
+
+**Python implementation:** Minhao Yao
+**Copyright:** Copyright (C) 2026 Minhao Yao.
+**License:** GPL-3.0.
+
 ## License
 
-Please add a license file to specify how others may use this code. Common choices include:
-
-- MIT License
-- Apache License 2.0
-- BSD 3-Clause License
+This package is distributed under the GNU General Public License v3.0. See the LICENSE file for details.
 
 ---
