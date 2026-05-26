@@ -1,4 +1,4 @@
-# NTK-RE: Equivalence Between Neural Tangent Kernel and Random-Effects Models
+# NTK-REML: Equivalence Between Neural Tangent Kernel and Random-Effects Models
 
 This repository provides simulation and training code for studying the connection between the **Neural Tangent Kernel (NTK)** and **random-effects models**. The project compares wide neural network training with its NTK approximation, and uses **restricted maximum likelihood (REML)** together with hypothesis testing to analyze model behavior.
 
@@ -15,7 +15,7 @@ The main goal is to provide a reproducible experimental pipeline for:
 ## Project Structure
 
 ```text
-NTK-RE/
+NTK-REML/
 ├── environment.yml          # Conda environment configuration
 ├── LICENSE                  # GPL-3.0 copyleft license
 ├── train.py                 # Main training, NTK, REML, and comparison pipeline
@@ -76,8 +76,8 @@ These functions are used to evaluate whether learned effects are statistically s
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/MinhaoYaooo/NTK-RE
-cd NTK-RE
+git clone https://github.com/MinhaoYaooo/NTK-REML
+cd NTK-REML
 ```
 
 ### 2. Create the Conda Environment
@@ -89,7 +89,7 @@ conda env create -f environment.yml
 ### 3. Activate the Environment
 
 ```bash
-conda activate NTK-RE
+conda activate NTK-REML
 ```
 
 ### 4. Verify Installation
@@ -386,7 +386,7 @@ If you use this repository in academic work, please cite it as:
   title  = {Deep Neural Network Training as Random-effects Inference},
   author = {xxxxx},
   year   = {2026},
-  url    = {https://github.com/MinhaoYaooo/NTK-RE}
+  url    = {https://github.com/MinhaoYaooo/NTK-REML}
 }
 ```
 
