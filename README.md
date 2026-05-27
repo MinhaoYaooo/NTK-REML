@@ -383,9 +383,9 @@ python train.py \
 If you use this repository in academic work, please cite it as:
 
 ```bibtex
-@misc{yao2026ntkre,
-  title  = {Deep Neural Network Training as Random-effects Inference},
-  author = {xxxxx},
+@misc{yao2026deep,
+  title  = {Deep Neural Network Training as Random Effects: An Optimization–Inference Duality},
+  author = {Minhao Yao, Ruoyu Wang, Xihong Lin, Lin Liu, Zhonghua Liu},
   year   = {2026},
   url    = {https://github.com/MinhaoYaooo/NTK-REML}
 }
